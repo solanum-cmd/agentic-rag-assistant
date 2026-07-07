@@ -1,6 +1,34 @@
+# Virtual environment
 venv/
+.venv/
+
+# Environment secrets
 .env
+.env.*
+!.env.example
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+
+# Logs
 logs/
-vectorstore/
+*.log
+
+# ChromaDB persistent storage
+data/
+
+# Uploaded documents
+documents/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
